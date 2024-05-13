@@ -772,19 +772,20 @@ footer {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 440px) {
   /* HEADER + NAV */
   nav {
-    max-width: 667px;
-    padding: 49px 0;
+    max-width: 389px;
+    padding: 27px 0;
   }
 
   .nav-left {
     width: 49%;
     padding-left: 13px;
   }
+
   .logo-header {
-    width: 157px;
+    width: 49%
   }
 
   .nav-right {
@@ -792,44 +793,51 @@ footer {
   }
   nav ul {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 0.85rem;
+    padding: 0 10px 0 0;
   }
 
   /* SECTION 1 */
   .section1 {
-    margin: 140px 0px 118px;
+    margin: 67px 0px 118px;
   }
   .section1-container {
     flex-direction: column-reverse;
     max-width: 640px;
   }
-  .section1-right {
-    width: auto;
-  }
+  
   .section1-left {
     width: auto;
-    margin-top: 65px;
+    margin-top: 53px;
   }
   .text-container {
     text-align: center;
   }
   h1 {
-    font-size: 3.12rem;
-    line-height: 4.2rem;
+    font-size: 1.81rem;
+    line-height: 2.28rem;
   }
   .text-section {
-    font-size: 1.74rem;
-    line-height: 2.5rem;
-    margin-top: 59px;
-    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.48rem;
+    margin: 33px auto;
+    width: 84%;
   }
   .email-container {
-    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
   }
   #email-2 {
     width: 100%;
   }
-  button {
-    width: 100%;
+  .section1-right {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section1-right img{
+    width: 85%;
   }
 }
