@@ -773,11 +773,6 @@ footer {
 }
 
 @media (max-width: 760px) {
-  main{
-    max-width: 680px;
-    margin: 0 auto;
-  }
-
   /* HEADER + NAV */
   nav {
     max-width: 667px;
@@ -830,5 +825,8 @@ footer {
   }
   .email-container{
     display: block;
+  }
+  #email-2{
+    width: 100%;
   }
 }
