@@ -829,4 +829,7 @@ footer {
   #email-2 {
     width: 100%;
   }
+  button {
+    width: 100%;
+  }
 }
