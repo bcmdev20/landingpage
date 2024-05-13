@@ -826,7 +826,21 @@ footer {
   .email-container {
     flex-direction: column;
     align-items: center;
-    margin-top: 38px;
+    margin-top: 34px;
+    gap: 20px;
+  }
+  #email-1{
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+  }
+  ::placeholder{
+    font-size: 0.9rem;
+  }
+  button{
+    width: 81%;
+    height: 44px;
+    font-size: 1rem;
   }
   #email-2 {
     width: 100%;
