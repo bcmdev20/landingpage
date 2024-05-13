@@ -554,7 +554,6 @@ footer {
   .section2 {
     background-size: 313% 100%;
     padding: 156px 0 95px;
-    width: 100%;
   }
 
   .section2-container {
@@ -785,7 +784,7 @@ footer {
   }
 
   .logo-header {
-    width: 49%
+    width: 49%;
   }
 
   .nav-right {
@@ -799,13 +798,13 @@ footer {
 
   /* SECTION 1 */
   .section1 {
-    margin: 67px 0px 118px;
+    margin: 83px 0px 23px;
   }
   .section1-container {
     flex-direction: column-reverse;
-    max-width: 640px;
+    max-width: 389px;
   }
-  
+
   .section1-left {
     width: auto;
     margin-top: 53px;
@@ -829,16 +828,16 @@ footer {
     margin-top: 34px;
     gap: 20px;
   }
-  #email-1{
-    width: 80%;
+  #email-1 {
+    width: 88%;
     height: 45px;
     border-radius: 5px;
   }
-  ::placeholder{
+  ::placeholder {
     font-size: 0.9rem;
   }
-  button{
-    width: 81%;
+  button {
+    width: 88%;
     height: 44px;
     font-size: 1rem;
   }
@@ -851,7 +850,47 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .section1-right img{
-    width: 85%;
+  .section1-right img {
+    width: 87%;
+  }
+
+  /* SECTION2 */
+
+  .section2 {
+    background-size: 562% 100%;
+    padding: 106px 0 95px;
+  }
+  .section2-container {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 389px;
+  }
+  .section2-right {
+    width: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section2-right img {
+    width: 93%;
+  }
+  .section2-left {
+    padding-top: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2-left h2 {
+    font-size: 1.15rem;
+  }
+  .text-container2 {
+    margin-bottom: 25px;
+  }
+  .text-container2 p {
+    font-size: 1.09rem;
+    width: 100%;
+    line-height: 1.4rem;
+    letter-spacing: 0;
   }
 }
