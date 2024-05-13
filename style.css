@@ -790,43 +790,43 @@ footer {
   .nav-right {
     width: 51%;
   }
-  nav ul{
+  nav ul {
     width: 100%;
     font-size: 1.5rem;
   }
 
   /* SECTION 1 */
-  .section1{
+  .section1 {
     margin: 140px 0px 118px;
   }
   .section1-container {
     flex-direction: column-reverse;
     max-width: 640px;
   }
-  .section1-right{
+  .section1-right {
     width: auto;
   }
-  .section1-left{
+  .section1-left {
     width: auto;
     margin-top: 65px;
   }
-  .text-container{
+  .text-container {
     text-align: center;
   }
-  h1{
+  h1 {
     font-size: 3.12rem;
     line-height: 4.2rem;
   }
-  .text-section{
+  .text-section {
     font-size: 1.74rem;
     line-height: 2.5rem;
     margin-top: 59px;
     width: 100%;
   }
-  .email-container{
+  .email-container {
     display: block;
   }
-  #email-2{
+  #email-2 {
     width: 100%;
   }
 }
