@@ -237,7 +237,7 @@ button {
   border-radius: 5px;
 }
 
-.testimonial svg {
+.quotes {
   padding-bottom: 32px;
 }
 
@@ -246,16 +246,16 @@ button {
   line-height: 1.83rem;
   font-weight: 400;
 }
-.avatar img {
-  width: 42px;
-  height: 42px;
-  border-radius: 1000px;
-}
 .avatar {
   display: flex;
   align-items: center;
   gap: 11px;
   margin-top: 21px;
+}
+.avatar img {
+  width: 42px;
+  height: 42px;
+  border-radius: 1000px;
 }
 .identity-avatar {
   padding-top: 4px;
@@ -892,5 +892,39 @@ footer {
     width: 100%;
     line-height: 1.4rem;
     letter-spacing: 0;
+  }
+  .section2-left a {
+    font-size: 0.87rem;
+    gap: 8px;
+    padding: 0;
+  }
+  .icon-arrow {
+    width: 18px;
+    height: 18px;
+  }
+  .testimonial {
+    width: 80%;
+    height: 191px;
+    padding: 16px 12px 19px 26px;
+    margin-top: 9px;
+  }
+  .quotes{
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 7px;
+  }
+  .text-testimonial{
+    font-size: 0.77rem;
+  }
+  .avatar{
+    margin-top: 13px;
+    gap: 8px;
+  }
+  .name-avatar {
+    font-size: 0.71rem;
+  }
+  .job-avatar{
+    font-size: 0.47rem;
   }
 }
