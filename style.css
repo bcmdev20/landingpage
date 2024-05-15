@@ -773,7 +773,7 @@ footer {
   }
 }
 
-@media (max-width: 440px) {
+@media (min-width: 375px) and (max-width: 440px) {
   /* HEADER + NAV */
   nav {
     max-width: 389px;
@@ -1040,7 +1040,7 @@ footer {
     gap: 21px;
   }
   .list2 li {
-    font-size:1.14rem ;
+    font-size: 1.14rem;
   }
   .socialnetwork {
     width: 30%;
