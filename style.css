@@ -127,13 +127,14 @@ h1 {
   gap: 20px;
 }
 
-::placeholder {
+#email-1::placeholder {
   font-size: 1.26rem;
   color: var(--text-footer);
   font-family: "Open", sans-serif;
 }
 
-button {
+.btn1,
+.btn2 {
   width: 264px;
   font-size: 1.19rem;
   font-weight: 700;
@@ -338,7 +339,7 @@ form {
   font-size: 1rem;
 }
 
-button {
+.btn2 {
   height: 65px;
 }
 
@@ -431,7 +432,7 @@ footer {
   gap: 23px;
 }
 
-.list2 ul li {
+.list2 li {
   font-size: 1.34rem;
 }
 .socialnetwork {
@@ -526,12 +527,13 @@ footer {
     border-radius: 2px;
     padding: 13px 0 10px 20px;
   }
-  ::placeholder {
-    font-size: 0.8rem;
+  #email-1::placeholder {
+    font-size: 0.7rem;
     color: var(--text-footer);
   }
 
-  button {
+  .btn1,
+  .btn2 {
     width: 175px;
     height: 37px;
     font-size: 0.8rem;
@@ -686,7 +688,7 @@ footer {
     font-size: 0.7rem;
   }
 
-  button {
+  .btn2 {
     padding: 14px;
   }
 
@@ -746,7 +748,7 @@ footer {
     gap: 17px;
   }
 
-  .list2 ul li {
+  .list2 li {
     font-size: 0.9rem;
   }
   .socialnetwork {
@@ -833,17 +835,15 @@ footer {
     height: 45px;
     border-radius: 5px;
   }
-  ::placeholder {
+  #email-1::placeholder {
     font-size: 0.9rem;
   }
-  button {
+  .btn1 {
     width: 88%;
     height: 44px;
     font-size: 1rem;
   }
-  #email-2 {
-    width: 100%;
-  }
+
   .section1-right {
     width: auto;
     display: flex;
@@ -939,7 +939,6 @@ footer {
     max-width: 389px;
     flex-direction: column;
     align-items: center;
-    
   }
   .cta-left {
     width: 88%;
@@ -948,20 +947,107 @@ footer {
     gap: 2px;
     padding: 32px 0 0 0;
   }
-  .cta-right{
-    width: 71%;
-  }
+
   .cta-left h3 {
     margin-top: 28px;
     font-size: 1.32rem;
   }
-  .cta-left p{
+  .cta-left p {
     font-size: 1.04rem;
     width: 92%;
     line-height: 1.4;
   }
+  .cta-right {
+    width: 71%;
+  }
 
   .email-cta {
-    padding: 0;
+    padding: 23px 0 0 0;
+  }
+
+  form {
+    gap: 2px;
+  }
+  #email-2 {
+    width: 98%;
+    height: 38px;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+  }
+  #email-2::placeholder {
+    font-size: 0.7rem;
+  }
+  .btn2 {
+    height: 36px;
+    width: 98%;
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    max-width: 389px;
+    padding: 34px 0 54px;
+  }
+  .logo-container {
+    padding-left: 45px;
+  }
+  .logo-footer {
+    transform: scale(1.2);
+  }
+  .info-footer {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .contact-footer {
+    width: 72%;
+    gap: 12px;
+  }
+  .contact-footer li:nth-child(2n) {
+    font-size: 1.14rem;
+  }
+  .contact-footer svg {
+    transform: scale(1.1);
+  }
+  .phone-contact {
+    padding: 8px 0 0 32px;
+  }
+  .phone-contact ul {
+    gap: 24px;
+  }
+  .email-contact {
+    padding: 11px 0 0 31px;
+  }
+  .email-contact ul {
+    gap: 24px;
+  }
+  .list1 {
+    padding-top: 64px;
+    width: 34%;
+  }
+  .list1 ul {
+    gap: 21px;
+  }
+  .list1 li {
+    font-size: 1.14rem;
+  }
+  .list2 {
+    width: 34%;
+    padding: 58px 0 0 28px;
+  }
+  .list2 ul {
+    transform: translateX(0);
+    gap: 21px;
+  }
+  .list2 li {
+    font-size:1.14rem ;
+  }
+  .socialnetwork {
+    width: 30%;
+    padding: 57px 0 0 0;
+    margin: 0 auto;
+  }
+  .socialnetwork ul {
+    width: 100%;
   }
 }
